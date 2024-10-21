@@ -1,14 +1,17 @@
 <?php
 
-/*
-Plugin Name: Custom Support Us
-Plugin URI: https://github.com/kingarthurwashere/custom-support-us
-Description: A custom "Support Us" plugin that allows donations via Paynow, Stripe, and PayPal.
-Version: 1.0
-Author: King Arthur
-Author URI: https://www.linkedin.com/in/arthur-nyasango-211402124/
-License: A "Slug" license name e.g. GPL2
-*/
+/**
+ * Plugin Name: Custom Support Us
+ * Plugin URI: https://github.com/kingarthurwashere/custom-support-us
+ * Description: A custom "Support Us" plugin that allows donations via Paynow, Stripe, and PayPal.
+ * Requires at least: 6.0
+ * Requires PHP: 7.4
+ * Version: 1.0
+ * Author: King Arthur
+ * Author URI: https://www.linkedin.com/in/arthur-nyasango-211402124/
+ * License: GPL2
+ */
+
 // Define constants for paths
 define('CUSTOM_SUPPORT_US_PLUGIN_DIR', plugin_dir_path(__FILE__));
 
