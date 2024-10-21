@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="//wsl.localhost/kali-linux/home/king/Documents/wordpress-docker/wp-data" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/paynow/php-sdk" />
+      <path value="$PROJECT_DIR$/vendor/paypal/paypal-checkout-sdk" />
+      <path value="$PROJECT_DIR$/vendor/paypal/paypalhttp" />
+      <path value="$PROJECT_DIR$/vendor/stripe/stripe-php" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

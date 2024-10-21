@@ -1,0 +1,41 @@
+/* custom-support-us.css */
+
+#support-us-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+#support-us-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#support-us-form input,
+#support-us-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#support-us-form button {
+    width: 100%;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#support-us-form button:hover {
+    background-color: #218838;
+}
