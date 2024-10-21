@@ -6,7 +6,9 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Sample\\' => array($vendorDir . '/paypal/paypal-checkout-sdk/samples'),
+    'Sample\\' => array($vendorDir . '/paypal/paypal-checkout-sdk/samples', $vendorDir . '/paypal/paypal-payouts-sdk/samples'),
+    'Psr\\Log\\' => array($vendorDir . '/psr/log/Psr/Log'),
+    'PaypalPayoutsSDK\\' => array($vendorDir . '/paypal/paypal-payouts-sdk/lib/PaypalPayoutsSDK'),
     'Paynow\\' => array($vendorDir . '/paynow/php-sdk/src'),
     'PayPalHttp\\' => array($vendorDir . '/paypal/paypalhttp/lib/PayPalHttp'),
     'PayPalCheckoutSdk\\' => array($vendorDir . '/paypal/paypal-checkout-sdk/lib/PayPalCheckoutSdk'),

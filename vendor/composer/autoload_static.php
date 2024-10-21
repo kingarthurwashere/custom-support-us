@@ -17,6 +17,8 @@ class ComposerStaticInitff2daf40121cf72ad55074285b621069
         ),
         'P' => 
         array (
+            'Psr\\Log\\' => 8,
+            'PaypalPayoutsSDK\\' => 17,
             'Paynow\\' => 7,
             'PayPalHttp\\' => 11,
             'PayPalCheckoutSdk\\' => 18,
@@ -27,6 +29,15 @@ class ComposerStaticInitff2daf40121cf72ad55074285b621069
         'Sample\\' => 
         array (
             0 => __DIR__ . '/..' . '/paypal/paypal-checkout-sdk/samples',
+            1 => __DIR__ . '/..' . '/paypal/paypal-payouts-sdk/samples',
+        ),
+        'Psr\\Log\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+        ),
+        'PaypalPayoutsSDK\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/paypal/paypal-payouts-sdk/lib/PaypalPayoutsSDK',
         ),
         'Paynow\\' => 
         array (
@@ -39,6 +50,16 @@ class ComposerStaticInitff2daf40121cf72ad55074285b621069
         'PayPalCheckoutSdk\\' => 
         array (
             0 => __DIR__ . '/..' . '/paypal/paypal-checkout-sdk/lib/PayPalCheckoutSdk',
+        ),
+    );
+
+    public static $prefixesPsr0 = array (
+        'P' => 
+        array (
+            'PayPal' => 
+            array (
+                0 => __DIR__ . '/..' . '/paypal/rest-api-sdk-php/lib',
+            ),
         ),
     );
 
@@ -76,6 +97,7 @@ class ComposerStaticInitff2daf40121cf72ad55074285b621069
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInitff2daf40121cf72ad55074285b621069::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInitff2daf40121cf72ad55074285b621069::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitff2daf40121cf72ad55074285b621069::$prefixesPsr0;
             $loader->classMap = ComposerStaticInitff2daf40121cf72ad55074285b621069::$classMap;
 
         }, null, ClassLoader::class);

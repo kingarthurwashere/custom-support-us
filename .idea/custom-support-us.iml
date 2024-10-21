@@ -7,6 +7,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/paypal-checkout-sdk" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/paypalhttp" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/stripe/stripe-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/paypal-payouts-sdk" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paypal/rest-api-sdk-php" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/psr/log" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

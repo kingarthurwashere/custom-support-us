@@ -2,6 +2,8 @@
     "require": {
         "paynow/php-sdk": "^1.0",
         "paypal/paypal-checkout-sdk": "^1.0",
-        "stripe/stripe-php": "^1.8"
+        "stripe/stripe-php": "^1.8",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "paypal/paypal-payouts-sdk": "~1.0.0"
     }
 }
