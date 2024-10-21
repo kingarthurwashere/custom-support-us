@@ -2,7 +2,7 @@
 
 /*
 Plugin Name: Custom Support Us
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+Plugin URI: https://github.com/kingarthurwashere/custom-support-us
 Description: A custom "Support Us" plugin that allows donations via Paynow, Stripe, and PayPal.
 Version: 1.0
 Author: King Arthur
