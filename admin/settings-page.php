@@ -11,12 +11,18 @@ function custom_support_us_add_admin_menu() {
 }
 add_action('admin_menu', 'custom_support_us_add_admin_menu');
 
+// Enqueue admin styles
+function custom_support_us_enqueue_admin_styles() {
+	wp_enqueue_style('custom-support-us-admin-style', plugins_url('assets/css/custom-support-us.css', __FILE__));
+}
+add_action('admin_enqueue_scripts', 'custom_support_us_enqueue_admin_styles');
+
 // Render the settings page
 function custom_support_us_settings_page() {
 	?>
     <div class="wrap">
         <h1>Custom Support Us Settings</h1>
-        <form method="post" action="../options.php">
+        <form method="post" action="options.php">
 			<?php
 			settings_fields('custom_support_us_options_group');
 			do_settings_sections('custom-support-us');
